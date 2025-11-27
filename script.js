@@ -21,8 +21,8 @@ window.addEventListener("click", (e) => {
 const downloadBtn = document.getElementById("downloadBtn");
 
 downloadBtn.addEventListener("click", () => {
-  const text = `Mahir Ibon — Bio\n\nFinal-year MBBS student at CBMC, Mymensingh.`;
-  const file = new Blob([text], { type: "text/plain" });
+  window.location.href = "https://drive.google.com/drive/folders/1ZR1_NI59wmyqACJlMeghOdhZVUUbizO5?usp=sharing";
+});
   const url = URL.createObjectURL(file);
 
   const a = document.createElement("a");
